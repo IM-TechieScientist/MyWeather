@@ -1,0 +1,31 @@
+name: MyWeather
+description: "Weather App built in Flutter"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  drawing_animation: ^1.0.1
+  flutter:
+    sdk: flutter
+  geocoding: ^3.0.0
+  geolocator: ^13.0.1
+  http: ^1.2.2
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_launcher_icons: any
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
